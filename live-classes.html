@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Live Classes - Mumtaz Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="ma-nav">
+      <div class="ma-nav-inner">
+        <a href="index.html" class="ma-logo" aria-label="Mumtaz Academy Home">
+          <div class="ma-logo-icon">
+            <svg aria-hidden="true" width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <path d="M18 2 L34 12 L34 30 L18 34 L2 30 L2 12 Z" fill="#c9a227" opacity="0.2"/>
+              <path d="M18 4 L32 13 L32 29 L18 32 L4 29 L4 13 Z" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+              <rect x="14" y="16" width="8" height="12" rx="4" fill="#c9a227"/>
+              <path d="M10 16 Q18 8 26 16" fill="none" stroke="#c9a227" stroke-width="1.5"/>
+              <path d="M6 18 Q18 6 30 18" fill="none" stroke="#c9a227" stroke-width="1" opacity="0.6"/>
+              <circle cx="18" cy="4" r="1.5" fill="#c9a227"/>
+            </svg>
+          </div>
+          <div class="ma-logo-text">
+            <span class="ma-logo-title">MUMTAZ</span>
+            <span class="ma-logo-sub">ACADEMY</span>
+          </div>
+        </a>
+
+        <ul class="ma-nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="live-classes.html" class="active">Live Classes</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="teachers.html">Teachers</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="ma-nav-actions">
+          <a href="login.html" class="ma-btn-outline">Login</a>
+          <a href="register.html" class="ma-btn-gold">Register</a>
+          <button class="ma-hamburger" aria-label="Open menu" aria-expanded="false" id="hamburgerBtn">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="ma-mobile-menu" id="mobileMenu" role="navigation" aria-label="Mobile navigation" style="display: none;">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="live-classes.html" class="active">Live Classes</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="teachers.html">Teachers</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="ma-mobile-actions">
+          <a href="login.html" class="ma-btn-outline">Login</a>
+          <a href="register.html" class="ma-btn-gold">Register</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="ma-page-banner">
+        <h1>Live Classes</h1>
+        <p>Interactive sessions with expert Islamic scholars — join from anywhere</p>
+      </section>
+
+      <section style="background: #f7f7f4; padding: 30px 24px; border-bottom: 1px solid #e8e8e8;">
+        <div style="max-width: 900px; margin: 0 auto; display: flex; gap: 40px; justify-content: center; flex-wrap: wrap;">
+          <div style="text-align: center;">
+            <div style="font-size: 28px; font-weight: 800; color: #c9a227;">100+</div>
+            <div style="font-size: 13px; color: #555; margin-top: 4px;">Live Classes / Month</div>
+          </div>
+          <div style="text-align: center;">
+            <div style="font-size: 28px; font-weight: 800; color: #c9a227;">20+</div>
+            <div style="font-size: 13px; color: #555; margin-top: 4px;">Expert Teachers</div>
+          </div>
+          <div style="text-align: center;">
+            <div style="font-size: 28px; font-weight: 800; color: #c9a227;">5000+</div>
+            <div style="font-size: 13px; color: #555; margin-top: 4px;">Active Students</div>
+          </div>
+          <div style="text-align: center;">
+            <div style="font-size: 28px; font-weight: 800; color: #c9a227;">Free</div>
+            <div style="font-size: 13px; color: #555; margin-top: 4px;">No Charges Ever</div>
+          </div>
+        </div>
+      </section>
+
+      <section style="padding: 50px 24px; max-width: 1100px; margin: 0 auto;">
+        <h2 style="text-align: center; font-weight: 800; font-size: 24px; margin-bottom: 8px;">Weekly Schedule</h2>
+        <p style="text-align: center; color: #666; margin-bottom: 36px; font-size: 14px;">All times are in IST (Indian Standard Time)</p>
+        <div style="overflow-x: auto;">
+          <table class="ma-schedule-table">
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Subject</th>
+                <th>Teacher</th>
+                <th>Level</th>
+                <th>Available Slots</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Monday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">9:00 AM – 10:00 AM</td>
+                <td style="font-weight: 600;">Quran Recitation</td>
+                <td style="color: #555; font-size: 13px;">Ustadh Abdul Rahman</td>
+                <td><span class="ma-level-badge" style="background: #1a5c3e;">Beginner</span></td>
+                <td style="text-align: center;"><span style="color: #27ae60; font-weight: 600; font-size: 13px;">12 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Monday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">7:00 PM – 8:00 PM</td>
+                <td style="font-weight: 600;">Arabic Grammar</td>
+                <td style="color: #555; font-size: 13px;">Ustadha Fatima Khan</td>
+                <td><span class="ma-level-badge" style="background: #3b4a8c;">Intermediate</span></td>
+                <td style="text-align: center;"><span style="color: #27ae60; font-weight: 600; font-size: 13px;">8 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Tuesday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">10:00 AM – 11:00 AM</td>
+                <td style="font-weight: 600;">Islamic Studies</td>
+                <td style="color: #555; font-size: 13px;">Maulana Siddiqui</td>
+                <td><span class="ma-level-badge" style="background: #4a6a1a;">All Levels</span></td>
+                <td style="text-align: center;"><span style="color: #27ae60; font-weight: 600; font-size: 13px;">15 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Tuesday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">8:00 PM – 9:00 PM</td>
+                <td style="font-weight: 600;">Tajweed Rules</td>
+                <td style="color: #555; font-size: 13px;">Hafiz Muhammad Ali</td>
+                <td><span class="ma-level-badge" style="background: #1a5c3e;">Beginner</span></td>
+                <td style="text-align: center;"><span style="color: #27ae60; font-weight: 600; font-size: 13px;">10 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Wednesday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">9:00 AM – 10:00 AM</td>
+                <td style="font-weight: 600;">Hadith Sciences</td>
+                <td style="color: #555; font-size: 13px;">Dr. Khalid Mehmood</td>
+                <td><span class="ma-level-badge" style="background: #7a2020;">Advanced</span></td>
+                <td style="text-align: center;"><span style="color: #c0392b; font-weight: 600; font-size: 13px;">6 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Wednesday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">6:00 PM – 7:00 PM</td>
+                <td style="font-weight: 600;">Quran with Translation</td>
+                <td style="color: #555; font-size: 13px;">Ustadh Ibrahim Shah</td>
+                <td><span class="ma-level-badge" style="background: #4a6a1a;">All Levels</span></td>
+                <td style="text-align: center;"><span style="color: #27ae60; font-weight: 600; font-size: 13px;">14 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Thursday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">10:00 AM – 11:00 AM</td>
+                <td style="font-weight: 600;">Arabic Conversation</td>
+                <td style="color: #555; font-size: 13px;">Ustadha Amina</td>
+                <td><span class="ma-level-badge" style="background: #3b4a8c;">Intermediate</span></td>
+                <td style="text-align: center;"><span style="color: #27ae60; font-weight: 600; font-size: 13px;">9 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Thursday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">7:00 PM – 8:00 PM</td>
+                <td style="font-weight: 600;">Islamic Fiqh</td>
+                <td style="color: #555; font-size: 13px;">Mufti Saeed Ahmad</td>
+                <td><span class="ma-level-badge" style="background: #7a2020;">Advanced</span></td>
+                <td style="text-align: center;"><span style="color: #c0392b; font-weight: 600; font-size: 13px;">7 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Friday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">9:00 AM – 10:00 AM</td>
+                <td style="font-weight: 600;">Seerah of the Prophet ﷺ</td>
+                <td style="color: #555; font-size: 13px;">Ustadh Yusuf Ali</td>
+                <td><span class="ma-level-badge" style="background: #4a6a1a;">All Levels</span></td>
+                <td style="text-align: center;"><span style="color: #27ae60; font-weight: 600; font-size: 13px;">20 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Saturday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">11:00 AM – 12:00 PM</td>
+                <td style="font-weight: 600;">Tajweed Mastery</td>
+                <td style="color: #555; font-size: 13px;">Hafiza Zainab</td>
+                <td><span class="ma-level-badge" style="background: #4a6a1a;">All Levels</span></td>
+                <td style="text-align: center;"><span style="color: #27ae60; font-weight: 600; font-size: 13px;">16 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Saturday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">5:00 PM – 6:00 PM</td>
+                <td style="font-weight: 600;">Quran Memorization</td>
+                <td style="color: #555; font-size: 13px;">Hafiz Abdul Basit</td>
+                <td><span class="ma-level-badge" style="background: #4a6a1a;">All Levels</span></td>
+                <td style="text-align: center;"><span style="color: #27ae60; font-weight: 600; font-size: 13px;">12 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+              <tr>
+                <td><strong>Sunday</strong></td>
+                <td style="white-space: nowrap; color: #555; font-size: 13px;">10:00 AM – 12:00 PM</td>
+                <td style="font-weight: 600;">Weekend Islamic Studies</td>
+                <td style="color: #555; font-size: 13px;">Panel of Scholars</td>
+                <td><span class="ma-level-badge" style="background: #4a6a1a;">All Levels</span></td>
+                <td style="text-align: center;"><span style="color: #27ae60; font-weight: 600; font-size: 13px;">30 left</span></td>
+                <td><a href="#" class="ma-enroll-btn" style="font-size: 12px; padding: 5px 12px;">Join →</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section style="background: #0b2b2b; padding: 60px 24px;">
+        <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+          <h2 style="color: #ffffff; font-weight: 800; font-size: 26px; margin-bottom: 8px;">How Live Classes Work</h2>
+          <p style="color: rgba(255,255,255,0.6); margin-bottom: 40px; font-size: 14px;">Simple steps to start your learning journey</p>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
+            <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(201,162,39,0.2); border-radius: 10px; padding: 24px 20px;">
+              <div style="font-size: 28px; font-weight: 800; color: #c9a227; margin-bottom: 10px;">01</div>
+              <div style="font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 8px;">Register Free</div>
+              <div style="font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.6;">Create your free account in under 2 minutes.</div>
+            </div>
+            <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(201,162,39,0.2); border-radius: 10px; padding: 24px 20px;">
+              <div style="font-size: 28px; font-weight: 800; color: #c9a227; margin-bottom: 10px;">02</div>
+              <div style="font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 8px;">Pick a Class</div>
+              <div style="font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.6;">Browse the schedule and choose a session that fits your time.</div>
+            </div>
+            <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(201,162,39,0.2); border-radius: 10px; padding: 24px 20px;">
+              <div style="font-size: 28px; font-weight: 800; color: #c9a227; margin-bottom: 10px;">03</div>
+              <div style="font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 8px;">Join the Link</div>
+              <div style="font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.6;">Click the Join link and enter the live Zoom/Google Meet session.</div>
+            </div>
+            <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(201,162,39,0.2); border-radius: 10px; padding: 24px 20px;">
+              <div style="font-size: 28px; font-weight: 800; color: #c9a227; margin-bottom: 10px;">04</div>
+              <div style="font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 8px;">Learn & Grow</div>
+              <div style="font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.6;">Interact with the teacher, ask questions, and get your certificate.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="ma-footer">
+      <div class="ma-footer-top">
+        <div class="ma-footer-brand">
+          <a href="index.html" class="ma-logo" style="margin-bottom: 14px; display: inline-flex;" aria-label="Mumtaz Academy Home">
+            <div class="ma-logo-icon">
+              <svg aria-hidden="true" width="32" height="32" viewBox="0 0 36 36" fill="none">
+                <path d="M18 4 L32 13 L32 29 L18 32 L4 29 L4 13 Z" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+                <rect x="14" y="16" width="8" height="12" rx="4" fill="#c9a227"/>
+                <path d="M10 16 Q18 8 26 16" fill="none" stroke="#c9a227" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div class="ma-logo-text">
+              <span class="ma-logo-title">MUMTAZ</span>
+              <span class="ma-logo-sub">ACADEMY</span>
+            </div>
+          </a>
+          <p class="ma-footer-desc">Mumtaz Academy is an Islamic online learning platform providing free education to everyone, everywhere.</p>
+        </div>
+
+        <div class="ma-footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="live-classes.html">Live Classes</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="ma-footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="study-materials.html">Study Materials</a></li>
+            <li><a href="mcq-tests.html">MCQ Tests</a></li>
+            <li><a href="student-support.html">Student Support</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="ma-footer-col">
+          <h4>Contact Us</h4>
+          <ul class="ma-contact-list">
+            <li>
+              <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a227" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Baliapur, Dhanbad, Jharkhand, 828201
+            </li>
+            <li>
+              <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a227" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              khanumar865446@gmail.com
+            </li>
+            <li>
+              <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a227" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.25h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 7.09 7.09l.91-1.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +91 8409281635, 9693517942
+            </li>
+          </ul>
+          <div class="ma-social">
+            <h4>Follow Us</h4>
+            <div class="ma-social-icons">
+              <a href="#" class="ma-social-icon" aria-label="Facebook">f</a>
+              <a href="#" class="ma-social-icon" aria-label="YouTube">▶</a>
+              <a href="#" class="ma-social-icon" aria-label="Instagram">📷</a>
+              <a href="#" class="ma-social-icon" aria-label="Telegram">✈</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ma-footer-bottom">
+        <p>© 2025 Mumtaz Academy. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
